@@ -1,4 +1,7 @@
 # LeetCode Solutions
+
+Find video link at my [YouTube channel](https://www.youtube.com/playlist?list=PLsowTcGqVtPgo0VSIUIbcOgNQJzblGnst)
+
 Languages Used - Java and Python3
 
 
