@@ -24,3 +24,5 @@ Format
 | 0000 | [Ques name]()                    | Algo       | [Java]()            | O() | O()  | Easy       | Category |    [📺]()    |
 
 
+[![Made with Python](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/sankalpdayal5/LeetCode-Solutions/) [![Made with Java](https://forthebadge.com/images/badges/made-with-java.svg)](https://github.com/sankalpdayal5/LeetCode-Solutions/) [![Built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/sankalpdayal5/LeetCode-Solutions/)
+ 
