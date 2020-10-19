@@ -18,7 +18,7 @@ Languages Used - Java and Python3
 | 0647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Extend from center, 2 function call for odd and even palindromes | [Java](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/Java/0647.java)     | O(n^2) | O(1)  | Medium     | String Dynamic Programming         | [📺](https://www.youtube.com/watch?v=ze1woFTZMpA)    |
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | Add 1 for char in s and remove 1 for char in t | [Java](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/Java/1347.java)      | O(n+m) | O(1)  | Medium     | Hash Table Heap         | [📺](https://www.youtube.com/watch?v=xXXOpOYWtRE)    |
 | 1352 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/) | Add new element to list by multiplying it with previous number and return arr[n-1]/arr[n-k-1] | [Python](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/Python/1352.py)      | O(1) | O(1)  | Medium     | Array Design         | [📺](https://www.youtube.com/watch?v=8CuVduv0Kyg)    |
-
+| 0287 | [Find duplicate in array of N+1 numbers](https://leetcode.com/problems/find-the-duplicate-number/) | Find the cycle using slow and fast pointer | [Java](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/Java/0287.java)     | O(n) | O(1)  | Medium     | Array Two Pointers         |          |
 
 
 Format
