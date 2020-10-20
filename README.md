@@ -23,6 +23,7 @@ Languages Used - Java and Python3
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | Add 1 for char in s and remove 1 for char in t | [Java](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/Java/1347.java)      | O(n+m) | O(1)  | Medium     | Hash Table Heap         | [📺](https://www.youtube.com/watch?v=xXXOpOYWtRE)    |
 | 1352 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/) | Add new element to list by multiplying it with previous number and return arr[n-1]/arr[n-k-1] | [Python](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/Python/1352.py)      | O(1) | O(1)  | Medium     | Array Design         | [📺](https://www.youtube.com/watch?v=8CuVduv0Kyg)    |
 
+| 0001 | [2 Sum problem](https://leetcode.com/problems/two-sum/) | Check all the combinations by looping Map, if it’s complement (target - element) and exists then return the indices of the current element and the complement. | [C++](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/C++/0001.cpp)    | O(n) | O(1)  | Easy       | Hash Table Heap | [📺](https://www.youtube.com/watch?v=_ZEweLKQpY8)    |
 
 Format
 | 0000 | [Ques name]()                    | Algo       | [Java]()            | O() | O()  | Easy       | Category |    [📺]()    |
