@@ -1,0 +1,42 @@
+###Algorithm for Decode Ways
+Step 1: Declare and initialize a 1D array of size n with zero.
+Step 2: Check if we can decode the string which starts and ends both at (n-1)th index( Base case ).
+
+Step 3: Run a loop and check at every step if we can use the ith index element as one digit valid number or merge it with (i+1)th index element to form a valid number of two digit.
+
+1.If s[i]!=’0’, then dp[i]+=dp[i+1]
+2.If s[i]==’1’, then dp[i]+=dp[i+2]
+3.If s[i]==’2’ and s[i+1]<=’6’, then dp[i]+=dp[i+2]
+
+Step 4: Return dp[0].
+Implementation
+C++ program for Decode Ways
+#include<bits/stdc++.h>
+using namespace std;
+int numDecodings(string s) {
+    int n=s.length();
+    int dp[n+1];
+    memset(dp,0,sizeof(dp));
+    dp[n]=1;
+    if(s[n-1]!='0'){       //if the last chararcter is not zero then we have one way to decode it
+        dp[n-1]=1;
+    }
+    for(int i=n-2;i>=0;i--){
+        if(s[i]!='0'){    
+            dp[i]+=dp[i+1];
+        }
+        if(s[i]=='1'){
+            dp[i]+=dp[i+2];
+        }
+        if(s[i]=='2'){
+            if(s[i+1]<='6'){
+                dp[i]+=dp[i+2];
+            }
+        }
+    }
+    return dp[0];
+}
+int main(){
+    string s="452625";
+    cout<<"The number of ways to decode the given string is: "<<numDecodings(s);
+}
