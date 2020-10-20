@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-Find video link at my [YouTube channel](https://www.youtube.com/playlist?list=PLsowTcGqVtPgo0VSIUIbcOgNQJzblGnst)
+Find video link at my [![Youtube Badge](https://img.shields.io/badge/-youtube-darkred?style=flat-square&logo=youtube&logoColor=white&link=https://www.youtube.com/playlist?list=PLsowTcGqVtPgo0VSIUIbcOgNQJzblGnst)](https://www.youtube.com/playlist?list=PLsowTcGqVtPgo0VSIUIbcOgNQJzblGnst)
 
 Languages Used - Java and Python3
 
