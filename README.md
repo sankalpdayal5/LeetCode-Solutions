@@ -1,6 +1,7 @@
 # LeetCode Solutions
 
-Find video link at my [YouTube channel](https://www.youtube.com/playlist?list=PLsowTcGqVtPgo0VSIUIbcOgNQJzblGnst)
+Find video link at my [YouTube channel](https://www.youtube.com/playlist?list=PLsowTcGqVtPgo0VSIUIbcOgNQJzblGnst)  <br>
+Or from the Sheet 1 of this [Google Sheet](https://bit.ly/2EUhwnw)
 
 Languages Used - Java and Python3
 
@@ -9,6 +10,7 @@ Languages Used - Java and Python3
 |------|------------------------------|-------------|-----------------|------|-------|------------|--------------|----------|
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/)   | Two pointers for counting valid nos and swapping       | [Java](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/Java/0027.java)   [Python](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/Python/0027.py)         | O(n) | O(1)  | Easy       | Array Two Pointers |    [📺](https://www.youtube.com/watch?v=r9HcLcYJBNc)    |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)   | Parse array and save the best solution at each step       | [Java](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/Java/0053.java)         | O(n) | O(1)  | Easy       | Array Dynamic Programming |        |
+| 0055 | [Jump Game](https://leetcode.com/problems/jump-game/)                    | Iterate from last index and check if we can reach there from current index or not       | [Python](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/Python/0055.py)            | O(n) | O(1)  | Medium       | Array Greedy |    [📺](https://www.youtube.com/watch?v=ymET7SJsDQc)    |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)   | steps[n]=steps[n-1]+steps[n-2].       | [C++](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/C++/0070.cpp)         | O(n) | O(1)  | Easy       | Dynamic Programming |     [📺](https://www.youtube.com/watch?v=QiD2Hbwx2z0)   |
 | 0100 | [Same Tree](https://leetcode.com/problems/same-tree/)                    | Check isSame(node.left) and isSame(root.right)       | [Java](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/Java/0100.java)            | O(n) | O(h)  | Easy       | Tree Depth-first-Search |    [📺](https://www.youtube.com/watch?v=ctzwuAP0iHg)    |
 | 0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)                    | Check if left.left==right.right and left.right==right.left        | [Java](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/Java/0101.java)            | O(n) | O(h)  | Easy       | Tree Depth-first-Search Breadth-first-Search |          [📺](https://www.youtube.com/watch?v=CgFsYbtRgQU)    |
