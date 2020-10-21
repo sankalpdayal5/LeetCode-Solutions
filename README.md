@@ -3,7 +3,9 @@
 Find video link at my [YouTube channel](https://www.youtube.com/playlist?list=PLsowTcGqVtPgo0VSIUIbcOgNQJzblGnst)  <br>
 Or from the Sheet 1 of this [Google Sheet](https://bit.ly/2EUhwnw)
 
-Languages Used - C++, Java, Python3
+[![Made with Python](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/sankalpdayal5/LeetCode-Solutions/) 
+[![Made with Java](https://forthebadge.com/images/badges/made-with-java.svg)](https://github.com/sankalpdayal5/LeetCode-Solutions/) 
+[![Made with C++](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://github.com/sankalpdayal5/LeetCode-Solutions/) 
 
 
 | #    | Title                        | Solution    | Code            | Time | Space | Difficulty | Tags         | Video    |
@@ -45,9 +47,6 @@ Format
 |------|----------------------------------|------------|---------------------|-----|------|------------|----------|---------------|
 | 0000 | [Ques name]()                    | Algo       | [Java]()            | O() | O()  | Easy       | Category |    [📺]()    |
 
-[![Made with Python](https://forthebadge.com/images/badges/made-with-python.svg)](https://github.com/sankalpdayal5/LeetCode-Solutions/) 
-[![Made with Java](https://forthebadge.com/images/badges/made-with-java.svg)](https://github.com/sankalpdayal5/LeetCode-Solutions/) 
-[![Made with C++](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://github.com/sankalpdayal5/LeetCode-Solutions/) 
 
 [![Built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/sankalpdayal5/LeetCode-Solutions/)
  
