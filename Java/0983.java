@@ -1,22 +1,39 @@
 class Solution {
     public int mincostTickets(int[] days, int[] costs) {
-        int[] minCost = new int[days[days.length-1]+1];
-        int currDay = 0;
-        minCost[1] = costs[0];
-        for(int i=1;i<minCost.length; i++){
-            int day = i-1 < 0 ? 0:i-1;
-            int week = i-7 < 0 ? 0:i-7;
-            int month = i-30 < 0 ? 0:i-30;
-            if(days[currDay] == i){
-                minCost[i] = Math.min(minCost[day]+costs[0], Math.min(minCost[week]+costs[1], minCost[month]+costs[2]));
-             
-                currDay++;
+        int lastDay = days[days.length - 1];
+        int n = lastDay + 1;
+        
+        int[] dp = new int[n];
+        boolean[] bool = new boolean[n];
+        for (int d:days) bool[d] = true;
+        
+        for (int i=1; i<n; i++){
+            if (bool[i]){
+                dp[i] = dp[i-1] + costs[0];
+                dp[i] = Math.min(dp[i], dp[Math.max(0, i-7)] + costs[1]);
+                dp[i] = Math.min(dp[i], dp[Math.max(0, i-30)] + costs[2]);
             }
             else{
-                minCost[i] = minCost[i-1];
+                dp[i] = dp[i-1];
             }
         }
-        return minCost[minCost.length-1];
+        
+        return dp[lastDay];
         
     }
 }
+
+
+/*
+Time - O(n)
+Space - O(n)
+
+
+dp[i] storing cost of travel upto i days
+
+dp[i] = dp[i-1] + costs[0]
+dp[i] = Math.min(dp[i], dp[Math.max(0, i-7)] + costs[1])
+dp[i] = Math.min(dp[i], dp[Math.max(0, i-30)] + costs[2])
+
+
+*/
