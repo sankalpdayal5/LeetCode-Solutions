@@ -3,7 +3,7 @@
 Find video link at my [YouTube channel](https://www.youtube.com/playlist?list=PLsowTcGqVtPgo0VSIUIbcOgNQJzblGnst)  <br>
 Or from the Sheet 1 of this [Google Sheet](https://bit.ly/2EUhwnw)
 
-Languages Used - Java and Python3
+Languages Used - C++, Java, Python3
 
 
 | #    | Title                        | Solution    | Code            | Time | Space | Difficulty | Tags         | Video    |
