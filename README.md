@@ -42,6 +42,8 @@ Or from the Sheet 1 of this [Google Sheet](https://bit.ly/2EUhwnw)
 | 1352 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/) | Add new element to list by multiplying it with previous number and return arr[n-1]/arr[n-k-1] | [Python](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/Python/1352.py)      | O(1) | O(1)  | Medium     | Array Design         | [📺](https://www.youtube.com/watch?v=8CuVduv0Kyg)    |
 | 1001 | [House Robber (Maximum amount of money obtained by robbing no two consecutive houses)](hhttps://leetcode.com/problems/house-robber/submissions/) | House Robber (Maximum amount of money obtained by robbing no two consecutive houses) | [Java](https://github.com/oudarjya718/LeetCode-Solutions/blob/master/Java/1001.java)      | O(1) | O(1)  | Medium     | Array Design         | [📺](https://www.youtube.com/watch?v=-DTseXJaEXs)    |
 
+| 1695 | [Decode Ways (Number of ways to decode a given number in terms of A-Z)](https://leetcode.com/problems/decode-ways/) | Decode Ways (Number of ways to decode a given number in terms of A-Z) | [Java](https://github.com/oudarjya718/LeetCode-Solutions/blob/master/Java/1695.java      | O(1) | O(1)  | Medium     | Array Design         | [📺](https://www.youtube.com/watch?v=z4dxKxy8dHk)    |
+
 
 Format
 | 0000 | [Ques name]()                    | Algo       | [Java]()            | O() | O()  | Easy       | Category |    [📺]()    |
