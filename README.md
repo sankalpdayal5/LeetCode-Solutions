@@ -41,6 +41,8 @@ Or from the Sheet 1 of this [Google Sheet](https://bit.ly/2EUhwnw)
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | Add 1 for char in s and remove 1 for char in t | [Java](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/Java/1347.java)      | O(n+m) | O(1)  | Medium     | Hash Table Heap         | [📺](https://www.youtube.com/watch?v=xXXOpOYWtRE)    |
 | 1352 | [Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/) | Add new element to list by multiplying it with previous number and return arr[n-1]/arr[n-k-1] | [Python](https://github.com/sankalpdayal5/LeetCode-Solutions/blob/master/Python/1352.py)      | O(1) | O(1)  | Medium     | Array Design         | [📺](https://www.youtube.com/watch?v=8CuVduv0Kyg)    |
 
+| 0070 | [Climbing Stairs (Number of ways to reach top of steps by taking 1 or 2 steps) ](https://leetcode.com/problems/climbing-stairs/) | Number of ways to reach top of steps by taking 1 or 2 steps | [Python](https://github.com/oudarjya718/LeetCode-Solutions/blob/master/Java/0070.java)      | O(1) | O(1)  | Medium     | Array Design         | [📺](https://www.youtube.com/watch?v=QiD2Hbwx2z0)    |
+
 
 Format
 | 0000 | [Ques name]()                    | Algo       | [Java]()            | O() | O()  | Easy       | Category |    [📺]()    |
