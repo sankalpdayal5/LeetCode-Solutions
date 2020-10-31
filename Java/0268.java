@@ -1,14 +1,16 @@
 class Solution {
     public int missingNumber(int[] nums) {
-        Set<Integer> a = new HashSet<Integer>();
-        for (int num : nums) a.add(num);
+        int n = nums.length;
+        int reqSum = n* (n+1) / 2;
 
-        int actual = nums.length + 1;
-        for (int number = 0; number < actual; number++) {
-            if (!a.contains(number)) {
-                return number;
-            }
+        int arrSum = 0;
+        for(int num: nums){
+            arrrSum += num;
         }
-        return -1;
+
+        return reqSum = arrSum;
     }
 }
+
+// Time - O(n)
+// Space - O(n)
